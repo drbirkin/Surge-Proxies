@@ -618,21 +618,61 @@ h1, h2, h3, h4, h5, h6 {
   #hero h2 {
     font-size: 2rem;
   }
+  
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1990px) {
   #hero {
     background-attachment: fixed;
   }
   object { 
-    width: 30rem;
+    width: 20.5rem;
     margin-bottom: 2rem;
+  }
+  .proxyLogo {
+    width: 20.5rem;
+  }
+}
+
+@media (max-width: 1690px) {
+  #hero {
+    background-attachment: fixed;
+  }
+  object { 
+    width: 19.5rem;
+    margin-bottom: 2rem;
+  }
+  .proxyLogo {
+    width: 19.5rem;
+  }
+  #hero h2 {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 1490px) {
+  #hero {
+    background-attachment: fixed;
+  }
+  object { 
+    width: 16.5rem;
+    margin-bottom: 2rem;
+  }
+  .proxyLogo {
+    width: 16.5rem;
+  }
+  #hero h2 {
+    font-size: 1.6rem;
   }
 }
 
 @media (max-width: 991px) {
   #hero {
     text-align: center;
+  }
+
+  .proxyLogo {
+    width: 20rem;
   }
   /* #hero .container, #hero .container-fluid {
     padding-top: 68px;
